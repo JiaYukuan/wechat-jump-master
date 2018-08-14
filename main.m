@@ -8,5 +8,7 @@
         plot(board(1), board(2), 'x','LineWidth',2,'Color','red');
         dis = distance(chess, board);
         dis = int16(round(dis))
+        press_screen(dis);
         pause(1);
+        num = num + 1;
     end
