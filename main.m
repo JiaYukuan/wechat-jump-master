@@ -1,5 +1,5 @@
 
-    im = imread('jump154.png');
+    im = read_image();
     figure; imshow(im); hold on;
     chess = chess_middle(im);
     board = board_middle(im, chess(1));
